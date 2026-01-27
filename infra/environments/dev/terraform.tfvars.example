@@ -1,0 +1,9 @@
+datadog_api_key = "REPLACE_ME"
+datadog_app_key = "REPLACE_ME"
+datadog_api_url = null
+
+env          = "dev"
+service_name = "sample-api"
+team         = "sre-demo"
+repo_url     = "https://example.com/sre.demo.datadog"
+slack_channel = "#sre-demo"

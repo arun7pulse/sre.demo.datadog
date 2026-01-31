@@ -1,0 +1,18 @@
+schema-version: v2.2
+dd-service: ${service_name}
+team: ${team}
+application: ${service_name}
+tier: ${tier}
+lifecycle: ${lifecycle}
+contacts:
+  - name: Slack
+    type: slack
+    contact: ${slack_channel}
+links:
+  - name: Repository
+    type: repo
+    url: ${repo_url}
+tags:
+  - service:${service_name}
+  - env:${environment}
+  - team:${team}

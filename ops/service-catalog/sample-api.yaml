@@ -1,0 +1,18 @@
+schema-version: v2.2
+dd-service: sample-api
+team: sre-demo
+application: sample-api
+tier: tier-2
+lifecycle: production
+contacts:
+  - name: Slack
+    type: slack
+    contact: #sre-demo
+links:
+  - name: Repository
+    type: repo
+    url: https://example.com/sre.demo.datadog
+tags:
+  - service:sample-api
+  - env:dev
+  - team:sre-demo
